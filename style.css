@@ -1,0 +1,104 @@
+body{
+	background: #000;
+	color: #fff;
+}
+h1 .letters {
+	opacity: 0;
+	text-align: center;
+	letter-spacing: 8px;
+	font-size:2.5em;
+	left: 25%;
+	width: 50%;
+	font-family:cursive;
+}
+span{
+	position: absolute;
+	top: 40%;
+	text-align: center;
+}
+h1 .letters-1{
+	animation:  animate1 3s;
+	animation-delay: 1s;
+}
+@keyframes animate1{
+	0%{
+		opacity: .2;
+		transform: scale(1);
+	}
+	
+	20%{
+		transform: scale(1.1);
+		opacity: .5;
+	}
+
+	30%{
+		transform: scale(1);
+		opacity: 8;
+	}
+	70%{
+		transform: scale(1);
+		opacity: 1;
+	}
+	100%{
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+h1 .letters-2{
+	animation:  animate2 3s;
+	animation-duration: 3s;
+	animation-delay: 4s;
+}
+@keyframes animate2{
+		0%{
+		opacity: .2;
+		transform: scale(1);
+	}
+	
+	20%{
+		transform: scale(1.1);
+		opacity: .5;
+	}
+
+	30%{
+		transform: scale(1);
+		opacity: .8;
+	}
+	70%{
+		transform: scale(1);
+		opacity: 1;
+	}
+	100%{
+		transform: scale(2);
+		opacity: 0;
+	}
+}
+h1 .letters-3{
+	animation:  animate3 3s;
+	animation-duration: 3s;
+	animation-delay: 7s;
+}
+@keyframes animate3{
+	0%{
+		opacity: .2;
+		transform: scale(1);
+	}
+	
+	20%{
+		transform: scale(1.1);
+		opacity: .5;
+	}
+
+	30%{
+		transform: scale(1);
+		opacity: .8;
+	}
+	70%{
+		transform: scale(1);
+		opacity: 1;
+	}
+	100%{
+		transform: scale(2);
+		opacity: 0;
+	}
+}
